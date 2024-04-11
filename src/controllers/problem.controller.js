@@ -1,4 +1,9 @@
-function addProblem(req, res) {}
+const { StatusCodes } = require("http-status-codes");
+
+function addProblem(req, res, next) {
+  try {
+  } catch (error) {}
+}
 function getProblem(req, res) {}
 function getProblems(req, res) {}
 function deleteProblem(req, res) {}
